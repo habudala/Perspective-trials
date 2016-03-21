@@ -1,0 +1,36 @@
+body{margin:auto;
+	text-align:center;
+	background-color:black;
+	}
+
+#one {
+	
+	border:1px solid black;
+/*	background-image: url("../images/sunset.jpg");
+*/	background-size: 100% 100%;
+	background-color:black;
+	height:800px;
+	position:relative;
+	perspective:100px;}
+
+#two {position:absolute;
+	padding:10px;
+	padding-top:600px;
+	/*margin-*/top:-150px;
+	height: 800px;
+	border:1px solid black;
+	background-color:black;
+;
+	transform:rotateX(13deg);
+	}
+	h3 {color:white;
+		text-shadow: 3px 3px 3px grey;
+		line-height:40px;
+		font-family: Times;}
+
+
+
+#two:hover {transition: all 30s ease;
+
+	padding-top:0px;}
+
